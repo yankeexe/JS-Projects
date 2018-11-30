@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Scatter DOM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  
+</head>
+<body>
+  <div id="container">
+  </div>
+    <script>
+
+  var getBalls = document.getElementsByClassName('balls');
+  var radius = Math.floor(Math.random() * (21) + 20);
+
+  function random_rgba() {
+    var o = Math.round,
+      r = Math.random,
+      s = 255;
+    return 'rgba(' + o(r() * s) + ',' + o(r() * s) + ',' + o(r() * s) + ',' + r().toFixed(1) + ')';
+  }
+
+  function createBalls (x) {
+    for (i = 0; i <= x; i++) {
+      var container = document.getElementById('container');
+      container.style.position = 'relative';
+      var boxContainer = document.createElement('div');
+      var posX = Math.floor(Math.random() * 400);
+      var posY = Math.floor(Math.random() * 400);
+
+      boxContainer.classList.add('balls');
+      boxContainer.style.position = 'absolute';
+      boxContainer.style.height = radius * 2 + 'px';
+      boxContainer.style.width = radius * 2 + 'px';
+      boxContainer.style.backgroundColor = random_rgba();
+      boxContainer.style.borderRadius = '50%';
+      boxContainer.style.left = posX + 'px';
+      boxContainer.style.top = posY + 'px';
+      container.appendChild(boxContainer);
+    }
+  }
+
+  createBalls(3);
+
+    </script>
+</body>
+</html>

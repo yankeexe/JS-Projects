@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bouncing Ball</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+  <div id="container"></div>
+
+  <script>
+    var container = document.getElementById('container');
+    var dot = document.createElement('div');
+    container.style.position = "relative";
+    dot.style.position = "absolute";
+    container.appendChild(dot);
+    dot.style.backgroundColor = 'blue';
+    dot.style.height = '10px';
+    dot.style.width = '10px';
+    dot.style.borderRadius='100px';
+    dot.style.top = 0;
+    // var p = 1;
+
+    var down = true;
+    var motion = setInterval(function () {
+      var po = parseInt(dot.style.top)
+      console.log(po)
+      if (down) {
+        dot.style.top = (po + 1) + 'px';
+      } else {
+        dot.style.top = (po - 1) + 'px';
+      }
+      if (po >= 490) {
+        down = false;
+      }
+      if (po <= 0) {
+        down = true;
+      }
+
+    }, 10);
+
+  </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DOM Assignment 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div id="my-id"></div>
+    <script>
+        var a = document.getElementById("my-id");
+        a.style.color = "blue";
+        a.style.width = "300px";
+        a.style.height = "300px";
+        var b = document.createElement("p");
+        a.appendChild(b);
+        var c = document.getElementsByTagName("p");
+        c[0].innerHTML = "Hello there";
+
+        function clickHanlder () {
+          console.log('hello red')
+          console.log(a.style.color)
+          if(a.style.color==="red"){
+            a.style.color = "green"
+          } else if (a.style.color === "green") {
+            a.style.color="blue";
+          } else {
+            a.style.color = "red"
+          }
+          
+        }
+        a.addEventListener('click',clickHanlder)
+    
+      </script>
+  </body>
+
+</html>
