@@ -5,4 +5,5 @@
     margin: 0 auto;
     margin-top: 10px;
     background-image: url("/images/bg.png");
+    overflow: hidden;
 }
