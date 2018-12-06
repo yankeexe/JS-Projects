@@ -1,11 +1,11 @@
-# Project Showcase Leapfrog :frog: 
+# Project Showcase Leapfrog 
 
-Leapfrog Internship Mini Projects Showcase :movie_camera: 
+Leapfrog Internship Mini Projects Showcase
 
 | Name                | Link                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| Carousel            | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-1%20Carousel) :fire: |
-| Collision Detection | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-2-Collision-oop) :fire: |
-| Flappy Bird         | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-3-flappybird) :fire: |
-| Class Assignments   | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/classAssignments) :fire: |
-| Exercises           | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/Exercises) :fire: |
+| Carousel            | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-1%20Carousel) |
+| Collision Detection | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-2-Collision-oop)|
+| Flappy Bird         | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/ast-3-flappybird) |
+| Class Assignments   | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/classAssignments) |
+| Exercises           | [Find here!](https://github.com/yankeexe/JS-Projects/tree/master/Exercises) |
