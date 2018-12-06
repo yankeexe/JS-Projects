@@ -1,0 +1,3 @@
+- class container have one style. 
+- class text have one style. 
+- heading text have one style. 
