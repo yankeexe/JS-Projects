@@ -47,3 +47,14 @@
     font-size: 1.4rem;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .slider-showcase img {
+    padding-left: 6%;
+
+  }
+
+  .slider img {
+    margin-left: 2.5%;
+  }
+}
