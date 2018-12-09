@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "bariol-regular";
+  src: url("../fonts/bariol_regular-webfont.ttf");
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu li {
+    display: inline;
+    margin-right: 5px;
+    border-bottom: none;
+    line-height: 110px;
+    font-family: "bariol-regular";
+  }
+
+  .reason-box-wrapper{
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  label {
+    margin-left: 500px;
+    font-size: 2.2rem;
+  }
+
+  .slider img {
+    padding: 12px 0;
+    margin: 0;
+  }
+
+  /* .slide-main {
+    line-height: 250px;
+  } */
+  .slide-text-heading {
+    text-align: center;
+    display: inline;
+  }
+
+  .reason {
+    text-align: center;
+  }
+
+  .reason-container {
+    font-family: "bariol-regular";
+  }
+
+  .reason-heading {
+    font-size: 28px;
+  }
+
+  .reason-sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .reason {
+    width: 100%;
+  }
+
+  .reason-box {
+    float: left;
+    margin-right: 40px;
+  }
+
+  .reason-container {
+    margin: 0 auto;
+  }
+
+  .reason-box-heading {
+    color: white;
+    font-size: 2.2rem;
+  }
+
+  .reason-box-text {
+    color: #e74c3c;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 1.3rem;;
+  }
+
+  /* Team */
+  .team-button {
+    /* width: 25%; */
+  }
+}

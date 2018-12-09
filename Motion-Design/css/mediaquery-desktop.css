@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1024px) {
+  .team-box {
+    margin-left: 8px;
+  }
+
+  .reason-box {
+    padding-right: 80px;
+    padding-left: 35px;
+  }
+
+  .slider-showcase {
+    padding: 1% 0;
+  }
+
+  label {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    width: 50%;
+    float: right;
+  }
+
+  .nav-menu li:hover {
+    background: black;
+  }
+
+  .services {
+    margin-top: 30px;
+  }
+
+  .service-box {
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  .price-display button {
+    width: 80px;
+  }
+
+  .services-text {
+    display: inline-block;
+  }
+  .footer {
+    font-size: 1.4rem;
+  }
+}

@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Motion</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-</head>
-<body>
-  <div class="boss">
-    <div class="navigation">
-      <div class="navigation-container">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Motion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/layout.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/mediaquery-tablet.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/mediaquery-desktop.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navigation">
+        <div class="navigation container clearfix">
           <div class="logo">
-            <!-- <a href="#"><img src="images/logo.png" alt="logo"></a> -->
-           <label for="toggle">&#9776;</label> 
-           <input type="checkbox" id="toggle"/>
+            <a href="#"><img src="images/logo.png" alt="logo"/></a>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
           </div>
           <div class="nav-menu">
             <ul>
-              <li><a href="#">Home</a> </li>
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Portfolio</a></li>
@@ -28,106 +62,303 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-      </div>
-    </div>
-
-    <div class="slide-main">
-      <div class="slide-container">
-          <div class="slide-text-heading">Welcome to Motion</div>
-          <div class="slide-text-sub-heading">Asmart & Creative Single Page Template</div>
-          <div class="slide-show"></div>
-          <div class="left-slide-button"></div>
-          <div class="right-slide-button"></div>
-      </div>
-    </div>
-
-    <div class="reason">
-      <div class="reason-container">
-          <div class="reason-heading">Smart & Creative</div>
-          <div class="reason-sub-heading">This is why you will use it :)</div>
-          <div class="reason-box">
-            <div class="reason-image"></div>
-            <div class="reason-box-heading">Multipurpose</div>
-            <div class="reason box-text">Lorem Ipsum dolor sit </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="team">
-      <div class="team-container">
-        <div class="team-heading">Talented & Expert</div>
-        <div class="team-sub-heading">This is our team.</div>
-        <div class="team-box">
-          <div class="team-image"></div>
-          <div class="team-name">Mahmoud Baghagho</div>
-          <div class="team-text"></div>
-          <button>Follow</button>
         </div>
       </div>
-    </div>
 
-    <div class="showcase">
-      <div class="showcase-container">
-        <div class="showcase-heading">Elegant & Geniune</div>
-        <div class="showcase-text">This is how our works look like :)</div>
-        <div class="slider">
-          <div class="slider-button-right"></div>
-          <div class="slider-button-left"></div>
-          <div class="indicator-circle"></div>
+      <div class="slide-main">
+        <div class="slide container">
+          <div class="slide-text-heading">
+            <h1>Welcome to Motion</h1>
+            <p>Asmart & Creative Single Page Template</p>
+          </div>
+          <div class="slide-show clearfix">
+            <div class="slider">
+              <img src="images/main-banner.png" alt="main-banner" />
+            </div>
+            <div class="left-slide-button"></div>
+            <div class="right-slide-button"></div>
+            <div class="circles"></div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="services">
-      <div class="services-container">
-        <div class="service-box">
-          <div class="service-box-heading">
-            Start Up
-            <p>For beginner</p>
+      <div class="reason">
+        <div class="reason-container clearfix">
+          <div class="reason-text-box">
+            <div class="reason-heading"><h2>Smart & Creative</h2></div>
+            <div class="reason-sub-heading">This is why you will use it :)</div>
           </div>
-          <div class="service-list">
-            <ul>
-              <li>Basic Pages</li>
-              <li>MySQL Database</li>
-              <li>Bandwidth</li>
-              <li>Storage Space</li>
-            </ul>
+
+          <div class="reason-box-wrapper">
+            <div class="reason-box">
+              <div class="reason-image">
+                <img src="images/creative-multi.png" alt="creative" />
+              </div>
+              <div class="reason-box-heading">Multipurpose</div>
+              <div class="reason-box-text">Lorem Ipsum dolor sit</div>
+            </div>
+  
+            <div class="reason-box">
+              <div class="reason-image">
+                <img src="images/creative-flatui.png" alt="flat-ui" />
+              </div>
+              <div class="reason-box-heading">Flat UI</div>
+              <div class="reason-box-text">Lorem Ipsum dolor sit</div>
+            </div>
+  
+            <div class="reason-box">
+              <div class="reason-image">
+                <img src="images/creative-cloud.png" alt="cc" />
+              </div>
+              <div class="reason-box-heading">Creative Design</div>
+              <div class="reason-box-text">Lorem Ipsum dolor sit</div>
+            </div>
           </div>
-          <div class="price-display">
-            <div class="price-right">$15/mo</div>
-            <button>Order</button>
+        </div>
+      </div>
+
+      <div class="team">
+        <div class="team-container clearfix">
+          <div class="team-text">
+            <div class="team-heading"><h2>Talented & Expert</h2></div>
+            <div class="team-sub-heading">This is our team :)</div>
+          </div>
+          <div class="team-box">
+            <div class="team-wrapper">
+              <img src="images/team-background.png" alt="team-background" />
+              <div class="team-image">
+                <div class="team-cirlce">
+                  <img
+                    src="images/team-circle-green.png"
+                    alt="team-background"
+                  />
+                </div>
+                <div class="team-profile-image">
+                  <img src="images/person1.png" alt="person1" />
+                </div>
+
+                <div class="team-avatar-overlay">
+                  <img src="images/avatar-overlay.png" alt="avatar-overlay" />
+                </div>
+              </div>
+              <div class="team-info">
+                <div class="team-name">Mahmoud Baghagho</div>
+                <div class="team-name-text">Senior UI Designer</div>
+                <button class="team-button">Follow</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-box">
+            <div class="team-wrapper">
+              <img src="images/team-background.png" alt="team-background" />
+              <div class="team-image">
+                <div class="team-cirlce">
+                  <img
+                    src="images/team-circle-green.png"
+                    alt="team-background"
+                  />
+                </div>
+                <div class="team-profile-image">
+                  <img src="images/person2.png" alt="person1" />
+                </div>
+
+                <div class="team-avatar-overlay">
+                  <img src="images/avatar-overlay.png" alt="avatar-overlay" />
+                </div>
+              </div>
+              <div class="team-info">
+                <div class="team-name">Mahmoud Baghagho</div>
+                <div class="team-name-text">Senior UI Designer</div>
+                <button class="team-button">Follow</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-box">
+            <div class="team-wrapper">
+              <img src="images/team-background.png" alt="team-background" />
+              <div class="team-image">
+                <div class="team-cirlce">
+                  <img
+                    src="images/team-circle-green.png"
+                    alt="team-background"
+                  />
+                </div>
+                <div class="team-profile-image">
+                  <img src="images/person3.png" alt="person1" />
+                </div>
+
+                <div class="team-avatar-overlay">
+                  <img src="images/avatar-overlay.png" alt="avatar-overlay" />
+                </div>
+              </div>
+              <div class="team-info">
+                <div class="team-name">Mahmoud Baghagho</div>
+                <div class="team-name-text">Senior UI Designer</div>
+                <button class="team-button">Follow</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-box">
+            <div class="team-wrapper">
+              <img src="images/team-background.png" alt="team-background" />
+              <div class="team-image">
+                <div class="team-cirlce">
+                  <img
+                    src="images/team-circle-green.png"
+                    alt="team-background"
+                  />
+                </div>
+                <div class="team-profile-image">
+                  <img src="images/person4.png" alt="person1" />
+                </div>
+
+                <div class="team-avatar-overlay">
+                  <img src="images/avatar-overlay.png" alt="avatar-overlay" />
+                </div>
+              </div>
+              <div class="team-info">
+                <div class="team-name">Mahmoud Baghagho</div>
+                <div class="team-name-text">Senior UI Designer</div>
+                <button class="team-button">Follow</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase">
+        <div class="showcase-container">
+          <div class="showcase-text">
+            <div class="showcase-heading"><h2>Elegant & Geniune</h2></div>
+            <div class="showcase-sub-heading">
+              This is how our works look like :)
+            </div>
+          </div>
+          <div class="slider-showcase">
+            <img src="images/showcase-slider.png" alt="showcase" />
+          </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service-container">
+          <div class="service-box">
+            <div class="service-box-heading">
+              <h2>Start Up</h2>
+              <p>For beginner</p>
+            </div>
+            <div class="service-list">
+              <ul>
+                <li>Basic Pages</li>
+                <li>MySQL Database</li>
+                <li>Bandwidth</li>
+                <li>Storage Space</li>
+              </ul>
+            </div>
+            <div class="price-display clearfix">
+              <div class="price-left">
+                <span class="sign">$</span> <span class="price">15</span>
+                <span class="date">/mo</span>
+              </div>
+              <button>Order</button>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-box-heading">
+              <h2>Start Up</h2>
+              <p>For beginner</p>
+            </div>
+            <div class="service-list">
+              <ul>
+                <li>Basic Pages</li>
+                <li>MySQL Database</li>
+                <li>Bandwidth</li>
+                <li>Storage Space</li>
+              </ul>
+            </div>
+            <div class="price-display clearfix">
+              <div class="price-left">
+                <span class="sign">$</span> <span class="price">15</span>
+                <span class="date">/mo</span>
+              </div>
+              <button>Order</button>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-box-heading">
+              <h2>Start Up</h2>
+              <p>For beginner</p>
+            </div>
+            <div class="service-list">
+              <ul>
+                <li>Basic Pages</li>
+                <li>MySQL Database</li>
+                <li>Bandwidth</li>
+                <li>Storage Space</li>
+              </ul>
+            </div>
+            <div class="price-display clearfix">
+              <div class="price-left">
+                <span class="sign">$</span> <span class="price">15</span>
+                <span class="date">/mo</span>
+              </div>
+              <button>Order</button>
+            </div>
           </div>
           <div class="services-text">
             And more available plans for all needs
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="latest-tweets">
-      <div class="latest-tweets-container">
-        <div class="tweets-slider"></div>
-        <div class="tweets-slider-left"></div>
-        <div class="tweets slider right"></div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="footer container">
-        <div class="footer-left">
-          &copy; Motion Template.Design by Begha
+      <div class="latest-tweets">
+        <div class="latest-tweets-container">
+          <div class="tweet-head">Latest Tweets</div>
+          <div class="tweets-slider">
+            <img src="images/tweet-slide.png" alt="tweet-slide" />
+          </div>
+          <div class="tweets-slider-left"></div>
+          <div class="tweets slider right"></div>
         </div>
-        <div class="footer-right social-links"></div>
+      </div>
+
+      <div class="footer">
+        <div class="footer container clearfix">
+          <div class="footer-left">&copy; Motion Template.Design by Begha</div>
+          <div class="footer-right">
+          </div>
+        </div>
+      </div>
+
+      <div id="map">
+        <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+              center: { lat: -34.397, lng: 150.644 },
+              zoom: 8
+            });
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=
+            AIzaSyAJYXH6pwYOPXxqi3-X6LvZBCAUbrkoboo
+            &callback=initMap"></script>
+
+        <div class="contact">
+          <div class="contact-header">Contact Us</div>
+          <div class="contact-text">
+            <ul>
+              <li>7oroof@7oroof.com</li>
+              <li>Your text goes here</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="map">
-      <div class="contact">
-        <div class="contact-header">Contact Us</div>
-        <div class="contact-text"></div>
-      </div>
-    </div>
-
-  </div>
-</body>
+  </body>
 </html>
